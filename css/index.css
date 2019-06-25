@@ -296,6 +296,7 @@ input {
   display: flex;
   flex-direction: column;
   margin-top: 25%;
+  margin-right: 10%;
   /* align-items: center; */
 
   background: #FFFFFF;
@@ -361,7 +362,26 @@ input {
 
 .tabs-home{
   background: #FFFFFF;
+  
 }
+
+.topics{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1208px;
+  height: 64px;
+  border: 5px solid #C4C4C4;
+  margin-left: 7%;
+  margin-right: 10%;
+  margin-top: 7%;
+  /* border-bottom: 5px solid white; */
+}
+
+.tab{
+  /* border: 5px solid #C4C4C4; */
+}
+
 
 .content-tabs{
   /* display:none; */
@@ -373,8 +393,8 @@ input {
   justify-content: space-around;
   /* justify-content: center; */
   align-items: center;
-  border: 1px solid #C4C4C4;
   border: 5px solid #C4C4C4;
+  border-top: 5px solid white;
 }
 
 .tabs-image{
