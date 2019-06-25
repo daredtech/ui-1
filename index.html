@@ -6,20 +6,28 @@
 
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-    <script src="js/index.js" async></script>
+    <!-- <script src="js/index.js" async></script> -->
 </head>
 
 <body>
     <div class="container">
 
-        <header>
-            <h1 class="logo"> Essentialism </h1>
-            <nav>
-                <a class="nav-link" href="#">Testimonials</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link" href="#">About us</a>
-                <a class="nav-link" href="#">Sign up</a>
-            </nav>
+        <header class="main-navigation">
+            <div class="nav-container">
+                <div class="logo-items"> 
+                    <img id="logo-img" class="logo" src="img/Logo-Essentialism.png" alt="Essentialism Company logo.">
+                    <h1 class="logo-header"> Essentialism </h1>
+                    
+
+                </div>
+              
+                <nav class="nav">
+                    <a class="nav-link" href="#">Testimonials</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#">Sign up</a>
+                 </nav>
+            </div>
         </header>
 
         <section class='content home'>
@@ -28,6 +36,17 @@
 
             </div>
             <div class="contact-form">
+                <h4> Username </h4>
+                <input type="text" tabindex="1" required autofocus>
+
+                <h4> Password </h4>
+                <input type="text" tabindex="2" required autofocus>
+
+                <a class="contact-form-link" href="#">Forgot your Password?</a>
+
+            
+                <div class="btn"> Sign In
+                </div>
 
             </div>
         </section>
