@@ -228,6 +228,10 @@ input {
   color: #565656;
 }
 
+.content-home{
+  display: flex;
+}
+
 .home-memo{
   margin-top: 10%;
   margin-left: 7%;
@@ -264,9 +268,39 @@ input {
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  padding-left:0.7%;
+  padding-left:1%;
 
   width: 192px;
-  height: 40px;
+  height: 43px;
 }
 
+.contact-form{
+  background: #FFFFFF;
+  border: 5px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 352px;
+  height: 400px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  color: #565656;
+}
+
+.contact-form .btn{
+  width: 135px;
+  height: 43px;
+  padding-left: 10%;
+}
+
+/* .contact-form a{
+  text-decoration: none;
+} */
