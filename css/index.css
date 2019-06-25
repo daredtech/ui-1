@@ -362,3 +362,40 @@ input {
 .tabs-home{
   background: #FFFFFF;
 }
+
+.content-tabs{
+  /* display:none; */
+  width: 1208px;
+  height: 576px;
+  margin-left: 7%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid #C4C4C4;
+  border: 5px solid #C4C4C4;
+}
+
+.tabs-image{
+  width: 457px;
+  height: 320px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.tabs-text{
+  width: 560px;
+  height: 199px;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 48px;
+}
