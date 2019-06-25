@@ -170,9 +170,9 @@ input {
 }
 .container {
   width: 1440px;
-  height: 1024px;
-/*  width: 100%;
-  height: 100%;*/
+  /* height: 1024px; */
+ /* width: 100%;
+  height: 100%; */
   margin: 0 auto;
   background: #282828;
 }
@@ -214,7 +214,6 @@ input {
   color: #565656;
 }
 
-
 .nav { 
   display: flex;
   justify-content: space-evenly;
@@ -227,4 +226,25 @@ input {
   font-style: normal;
   font-weight: normal;
   color: #565656;
+}
+
+.home-memo{
+  margin-top: 10%;
+  margin-left: 7%;
+}
+.home-memo h1{
+  font-size: 63px;
+  line-height: 74px;
+  color: #FFFFFF;
+  padding-bottom: 1%;
+}
+.home-memo h3{
+  font-size: 52px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+.home-memo .main-image{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
