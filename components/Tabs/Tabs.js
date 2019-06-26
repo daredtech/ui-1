@@ -19,16 +19,20 @@ function displayDefault() {
 
 let tabs = document.querySelectorAll('.tab');
 let tabsContentCollection = document.querySelectorAll('.content-tabs');
-let clickedTab = null;
+let clickedTab = "grow";
+
+let topicTab = document.querySelector(`.tab[data-tab='${clickedTab}']`);
+topicTab.style.borderBottom= "5px solid white";
 
 tabs.forEach(item => item.addEventListener('click', () => updateActive(item)));
 
 function updateActive(item){
-  console.log(item);
+  // console.log(item);
   clickedTab = item.dataset.tab;
-  console.log(clickedTab);
-  tabsContentCollection.forEach(item => item.style.display = 'none');
+  // console.log(clickedTab);
+  tabsContentCollection.forEach(item => item.style.display = 'none', topicTab.style.border= "5px solid #C4C4C4");
   activeTab = document.querySelector(`.content-tabs[data-tab='${clickedTab}']`);
   activeTab.style.display = "flex";
-
+  topicTab = document.querySelector(`.tab[data-tab='${clickedTab}']`);
+  topicTab.style.borderBottom= "5px solid white";
 }
