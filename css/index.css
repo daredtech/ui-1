@@ -380,16 +380,21 @@ input {
 
 .tab{
   /* border: 5px solid #C4C4C4; */
+  width: 302px;
+  height: 64px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .content-tabs{
-  /* display:none; */
+  display: none;
   width: 1208px;
   height: 576px;
   margin-left: 7%;
   margin-right: 10%;
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   /* justify-content: center; */
   align-items: center;
@@ -419,3 +424,4 @@ input {
   font-size: 25px;
   line-height: 48px;
 }
+
